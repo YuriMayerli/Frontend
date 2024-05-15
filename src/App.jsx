@@ -5,6 +5,7 @@ import CompEditarClientes from './Componentes/CompEditarClientes';
 import CompCrearProducto from './Componentes/CompCrearProducto';
 import CompMostrarProducto from './Componentes/CompMostrarProducto';
 import CompEditarProducto from './Componentes/CompEditarProducto';
+import CompFooter from './Componentes/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -51,7 +52,8 @@ function App() {
 
         </Routes>
       </BrowserRouter>
-
+      
+    <CompFooter/>
       
       
     </div>
