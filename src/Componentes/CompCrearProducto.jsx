@@ -2,7 +2,8 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
-const URL = 'http://localhost:5000/api/producto/';
+//const URL = 'http://localhost:5000/api/producto/';
+const URL = 'https://backend-6sad.onrender.com/api/producto';
 
 const CompCrearProducto = () => {
 

@@ -2,7 +2,8 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-const URL = "http://localhost:5000/api/producto";
+//const URL = "http://localhost:5000/api/producto";
+const URL = 'https://backend-6sad.onrender.com/api/producto';
 
 const CompMostrarProducto = () => {
   const [producto, setProducto] = useState([]);
